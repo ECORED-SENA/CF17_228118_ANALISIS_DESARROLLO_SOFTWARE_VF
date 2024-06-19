@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Desarrollo web con HTML, CSS y JavaScript',
+    descripcionCurso:
+      'El diseño de un sitio web corresponde a un componente fundamental en el proceso de creación de aplicaciones web; por ende, este componente está orientado a la comprensión de los conceptos más importantes que se deben tener en cuenta, así como también la forma en que se deben codificar para construir de manera propia un sitio web o de apoyarse en sistemas gestores de contenidos denominados CMS. ',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,13 +36,38 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'HTML 5',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Etiquetas <em>(tags)</em>',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Textos',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Imágenes',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Hiperenlaces',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Tablas',
+            hash: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo: 'Formularios',
+            hash: 't_1_6',
           },
         ],
       },
@@ -45,13 +75,58 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Hojas de estilo',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Introducción CSS3',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Estructura',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Formulario CSS3',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'JavaScript',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Versiones',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Sintaxis',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Tipos de datos',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Estructuras de control',
+            hash: 't_3_4',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Gestores de contenido CMS',
         desarrolloContenidos: true,
       },
     ],
@@ -86,7 +161,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/228118_CF17_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -102,32 +177,123 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'HTML 5',
+      referencia:
+        'HTMLed.it. (2021). Editor HTML gratuito en línea, limpiador y convertidor.',
+      tipo: 'Página web',
+      link: 'https://htmled.it/or/',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'JavaScript',
+      referencia: 'Cubic Factory. (2021). Ejecutar JavaScript.',
+      tipo: 'Página web',
+      link: 'https://www.cubicfactory.com/jseditor/',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'CMS',
+      significado: 'Sistema manejador de contenidos.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'CSS3',
+      significado: 'Hojas de estilo en cascada, versión 3.',
+    },
+    {
+      termino: 'ES6',
+      significado: 'Abreviación de ECMAScript, versión 6.',
+    },
+    {
+      termino: '<em>Frontend</em>',
+      significado: 'Capa de presentación de una aplicación web.',
+    },
+    {
+      termino: '<em>Get</em>',
+      significado: 'Método de envío de datos por URL web.',
+    },
+    {
+      termino: 'JavaScript',
+      significado: 'Lenguaje de programación.',
+    },
+    {
+      termino: 'LAN',
+      significado: 'Red de área local.',
+    },
+    {
+      termino: '<em>Landing Page</em>',
+      significado:
+        'Página web de aterrizaje, diseñada específicamente para una campaña de marketing o publicidad.',
+    },
+    {
+      termino: 'LESS',
+      significado:
+        'Hoja de estilo dinámica, extensión que amplía las capacidades de CSS.',
+    },
+    {
+      termino: 'MAN',
+      significado: 'Red de área metropolitana.',
+    },
+    {
+      termino: 'NODE.js',
+      significado:
+        'Entorno de ejecución para JavaScript del lado del servidor.',
+    },
+    {
+      termino: '<em>Plugin</em>',
+      significado:
+        'Aplicación que extiende las funcionalidades de un programa principal.',
+    },
+    {
+      termino: 'Post',
+      significado: 'Método de envío de datos por formulario web.',
+    },
+    {
+      termino: 'SEO',
+      significado:
+        'Optimización para motores de búsqueda, estrategias para mejorar la visibilidad de un sitio web.',
+    },
+    {
+      termino: 'WAN',
+      significado: 'Red de área extensa o mundial.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Acibeiro. M. (2021). Qué es un gestor de contenidos y cuál es el mejor para crear una web.',
+      link: 'https://www.lucushost.com/blog/gestor-de-contenidos/',
+    },
+    {
+      referencia: 'Beati, H. (2016). HTML5 y CSS3.',
+    },
+    {
+      referencia: 'Cuervo, P. V. (2019). 10 características de un CMS.',
+      link: 'https://www.arquitectoit.com/cms/10-caracteristicas-cms/',
+    },
+    {
+      referencia:
+        'Gutierrez, R. (2018). Understanding the role of digital commons in the web; The making of HTML5.',
+    },
+    {
+      referencia:
+        'Hverbeke, M. (2018). Eloquent JavaScript: A Modern Introduction to Programming.',
+    },
+    {
+      referencia:
+        'Lenguaje JS. (2021). ¿Qué son los bucles? Bucles, iteraciones y repetición de código.',
+      link: 'https://lenguajejs.com/javascript/introduccion/bucles/',
+    },
+    {
+      referencia:
+        'Mooc, Aprendizaje Online.(2015). Clasificación de los sistemas de gestión de contenidos.',
+      link:
+        'https://mooccontenidosweb.wordpress.com/2015/05/01/clasificacion-de-los-sistemas-de-gestion-de-contenidos/',
+    },
+    {
+      referencia:
+        'Mora, S. L. (2021). HTML5 y CSS3: <6> HTML5 – Formularios</6>.',
+      link:
+        'http://desarrolloweb.dlsi.ua.es/cursos/2011/html5-css3-es/html5-formularios',
     },
   ],
   creditos: [
@@ -150,8 +316,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Carlos Hernán Muñoz Carvajal',
+          cargo: 'Experto Temático',
+          centro:
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora Instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -160,22 +332,22 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Carlos Julian Ramirez Benitez',
           cargo: 'Diseñador de Contenidos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Edgar Mauricio Cortes Garcia',
           cargo: 'Desarrollador Fullstack',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Daniela Muñoz Bedoya',
+          cargo: 'Animador y Productor Multimedia',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Edgar Mauricio Cortes Garcia',
           cargo: 'Actividad Didáctica',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
