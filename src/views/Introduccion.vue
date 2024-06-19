@@ -37,9 +37,6 @@
 </template>
 
 <script>
-import Prism from 'prismjs'
-import 'prismjs/components/prism-python'
-import 'prismjs/themes/prism-okaidia.css'
 export default {
   name: 'Tema1',
   data: () => ({
@@ -49,15 +46,9 @@ export default {
     this.$nextTick(() => {
       this.$aosRefresh()
     })
-    window.Prism = window.Prism || {}
-    window.Prism.manual = true
-    Prism.highlightAll()
   },
   updated() {
     this.$aosRefresh()
-    window.Prism = window.Prism || {}
-    window.Prism.manual = true
-    Prism.highlightAll()
   },
 }
 </script>
