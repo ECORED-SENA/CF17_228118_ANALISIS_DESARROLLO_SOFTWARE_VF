@@ -15,10 +15,10 @@
       .col-lg-8.col-7
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 7.
-          span Integracion general del CMS
+          span Integración general del CMS
         img.d-none.d-lg-block(src='@/assets/curso/temas/45.svg', alt='El software CMS, se integra entre la página web y un servidor con sistema operativo.')
         img.d-block.d-lg-none(src='@/assets/curso/temas/46.svg', alt='El software CMS, se integra entre la página web y un servidor con sistema operativo.')
-    p.mb-5(data-aos='fade-right') Un gestvor de contenidos o CMS, es un #[em software] web diseñado para facilitar la creación, gestión y publicación de contenido en páginas web, sin requerir conocimientos avanzados en desarrollo de software o programación informática. Estas herramientas proporcionan una plataforma de administración virtual que permite a los usuarios crear, editar y publicar contenido web de manera eficiente. 
+    p.mb-5(data-aos='fade-right') Un gestor de contenidos o CMS, es un #[em software] web diseñado para facilitar la creación, gestión y publicación de contenido en páginas web, sin requerir conocimientos avanzados en desarrollo de software o programación informática. Estas herramientas proporcionan una plataforma de administración virtual que permite a los usuarios crear, editar y publicar contenido web de manera eficiente. 
     .titulo-tres.mb-4: h3.mb-0 Funciones 
     h5.mb-4 A continuación, se describen las principales funciones que debe cumplir un CMS.
     .f-4-1.p-5.mb-5

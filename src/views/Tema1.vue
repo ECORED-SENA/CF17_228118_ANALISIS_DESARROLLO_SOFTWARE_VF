@@ -22,7 +22,7 @@
             .row.justify-content-center.align-items-center
               .col-lg-1.col-6: img(src='@/assets/curso/temas/6.svg', alt='')
               .col-lg-11
-                h5.mb-3: span.titulo-azul.p-2 Sabias qué ?
+                h5.mb-3: span.titulo-azul.p-2 ¿Sabias qué ?
                 p(data-aos='fade-right') El consorcio WWW en ingles: World Wide Web Consortium (W3C) es un consorcio internacional que genera recomendaciones y estándares que aseguran el crecimiento del World Web a largo plazo.
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -97,7 +97,6 @@
             span Etiquetas HTML para textos
           .tabla-a.color-acento-contenido.mb-5
             table
-              caption Leyenda de la tabla
               thead(style="background-color: #3a1d71")
                 tr
                   th.text-white  Etiqueta 
@@ -129,7 +128,7 @@
                 |Mi primer texto en una página web que no es un párrafo &lt;/br&gt; 
                 |&lt;p&gt;Mi primer párrafo página web&lt;/p&gt; 
                 br
-                |&lt;blockquote&gt;MI PRIMER PARRAFO CITA EN UNA PAGINAWEB&lt;blockquote&gt; 
+                |&lt;blockquote&gt;MI PRIMER PÁRRAFO CITA EN UNA PÁGINA WEB&lt;blockquote&gt; 
                 |&lt;p&gt;Siempre se dice que este es el mejor sitio para ver videos |online  
                 |&lt;q cite=“http://youtube.com/“&gt;www.youtube.com&lt;/q&gt; 
                 |&lt;/p&gt; 
@@ -152,7 +151,7 @@
     .row.justify-content-center.align-items-center.mb-5
         .col-lg-1.col-5(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/11.svg', alt='')
         .col-lg-11(data-aos="fade-left")
-          p.mb-0 Para anexar una imagen a un documento HTML se usa la etiqueta <img> acompañada del atributo src que corresponde a la ubicación en donde se encuentra la imagen, bien sea en formato *.jpeg, *.gif, *.png, entre otros formatos. 
+          p.mb-0 Para anexar una imagen a un documento HTML se usa la etiqueta &lt;img/&gt; acompañada del atributo src que corresponde a la ubicación en donde se encuentra la imagen, bien sea en formato *.jpeg, *.gif, *.png, entre otros formatos. 
     .row.justify-content-center.mb-4
         .col-lg-10
           .tarjeta.color-primario.p-3.mb-5

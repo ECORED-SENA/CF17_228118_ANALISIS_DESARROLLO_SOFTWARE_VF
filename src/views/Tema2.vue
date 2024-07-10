@@ -29,8 +29,8 @@
 						p Se refiere a la separación del contenido del documento HTML independiente de su presentación (tipos de letras, colores, tamaños de letras, espacios, fondos de pantalla, anexo de imágenes, entre otros)
 				.col-lg-4
 					.tarjeta.p-4(style="background-color: #d8fffa") 
-						h5 Optimización de carga: Utilizar CSS 
-						p eficientemente permite reducir el tiempo de carga de las páginas web al minimizar el uso de recursos innecesarios. Esto se logra mediante la combinación de archivos, minimización de código y uso de selectores y reglas CSS adecuadas para el diseño responsive.
+						h5 Optimización de carga:
+						p Utilizar CSS eficientemente permite reducir el tiempo de carga de las páginas web al minimizar el uso de recursos innecesarios. Esto se logra mediante la combinación de archivos, minimización de código y uso de selectores y reglas CSS adecuadas para el diseño responsive.
 			.row.justify-content-center.mb-5
 				.col-lg-4.mb-lg-0.mb-3
 					h5.mb-4 Un ejemplo de código de hoja interna es:
@@ -244,7 +244,7 @@
 								br
 								| &lt;br/&gt; 
 								br
-								| URL: &lt;input type=“url” name=“url_control” placeholder=“Escripe la URL de tu página web personal” /&gt; 
+								| URL: &lt;input type=“url” name=“url_control” placeholder=“Escribe la URL de tu página web personal” /&gt; 
 								br
 								| &lt;br/&gt; 
 								br

@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="El esquema del componente formativo abarca  los fundamentos del diseño web, detallando desde Requerimientos hasta conceptos específicos de HTML, CSS, JavaScript y Contenedores, que en conjunto contribuyen a la creación de una Página WEB.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

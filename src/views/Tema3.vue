@@ -237,7 +237,7 @@
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2  3.4 Estructuras de control
     .f-3-5.p-5.mn.mb-5
-      p.mb-5(data-aos='fade-right') programador con lenguajes de programación y la gente está codificando.En un programa JavaScript, las líneas de código se ejecutan de forma secuencial, es decir, en el orden en que aparecen: primero la primera línea, luego la segunda, la tercera, y así sucesivamente, nunca invirtiendo este orden, lo cual determina el flujo del programa. Durante este flujo, puede surgir la necesidad de tomar decisiones basadas en condiciones específicas, momento en el cual se emplean las estructuras condicionales, que pueden derivar en acciones diferentes dependiendo de si la condición evaluada resulta verdadera o falsa. Asimismo, en ciertos puntos del programa puede ser necesario iterar sobre estructuras de datos, como arreglos, para lo cual se utilizan bucles o ciclos. 
+      p.mb-5(data-aos='fade-right') En un programa JavaScript, las líneas de código se ejecutan de forma secuencial, es decir, en el orden en que aparecen: primero la primera línea, luego la segunda, la tercera, y así sucesivamente, nunca invirtiendo este orden, lo cual determina el flujo del programa. Durante este flujo, puede surgir la necesidad de tomar decisiones basadas en condiciones específicas, momento en el cual se emplean las estructuras condicionales, que pueden derivar en acciones diferentes dependiendo de si la condición evaluada resulta verdadera o falsa. Asimismo, en ciertos puntos del programa puede ser necesario iterar sobre estructuras de datos, como arreglos, para lo cual se utilizan bucles o ciclos. 
       .titulo-tres.mb-4: h3.mb-0 El condicional if
       p.mb-4(data-aos='fade-right') El más conocido de los condicionales, si se cumple la condición continúa ese camino. Se escribe entre paréntesis después de la palabra reservada if. Ejemplo con condicional if:  
       .row.justify-content-center.mb-4
@@ -299,7 +299,7 @@
                 br
                 |} if else (edad > 18 ){ 
                 br
-                |mensaje=“Tu cédula ya fué tramitada”; 
+                |mensaje=“Tu cédula ya fue tramitada”; 
                 br
                 |} if else (edad < 18 ){ 
                 br
