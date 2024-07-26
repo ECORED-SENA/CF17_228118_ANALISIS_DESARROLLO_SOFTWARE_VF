@@ -22,7 +22,7 @@
             .row.justify-content-center.align-items-center
               .col-lg-1.col-6: img(src='@/assets/curso/temas/6.svg', alt='')
               .col-lg-11
-                h5.mb-3: span.titulo-azul.p-2 ¿Sabias qué ?
+                h5.mb-3: span.titulo-azul.p-2 ¿Sabías qué ?
                 p(data-aos='fade-right') El consorcio WWW en ingles: World Wide Web Consortium (W3C) es un consorcio internacional que genera recomendaciones y estándares que aseguran el crecimiento del World Web a largo plazo.
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
